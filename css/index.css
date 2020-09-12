@@ -66,6 +66,76 @@ p {
     line-height: 1.4;
 }
 
+header {
+    height: 8%;
+    display: flex;
+    padding: 1% 0;
+    flex-flow: row nowrap;
+    align-items: space-between;
+    justify-content: center;
+}
+
+header nav {
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header nav a {
+    padding-bottom: 1%;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: black;
+}
+
+.lambda {
+    width: 8%;
+}
+
+#headpic {
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.midpic {
+    
+    margin: 3% 0;
+}
+
+#about {
+    margin-bottom: 2%;
+}
+
+#top {
+    border-top: 2px dotted black;
+    display: flex;
+    flex-flow: row;
+}
+
+#bottom {
+    display: flex;
+    flex-flow: row;
+}
+
+.top {
+    padding: 0 2%;
+}
+
+.bottom {
+    padding: 4% 2%;
+}
+
+.info {
+    width: 50%;
+    margin:2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted black;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: space-evenly;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -143,4 +213,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+.learn {
+    text-decoration: none;
+    width: 100px;
+    padding: 1% 5%;
+    border-radius: 10px;
+    border: solid black;
+    color: black;
 }
