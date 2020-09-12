@@ -98,9 +98,32 @@ header nav a {
     margin-bottom: 1%;
 }
 
+.midpic {
+    margin: 3% 0;
+}
+
 #about {
     margin-bottom: 2%;
 }
+
+#top {
+    display: flex;
+    flex-flow: row;
+}
+
+#bottom {
+    display: flex;
+    flex-flow: row;
+}
+
+.info {
+    width: 50%;
+    margin:2%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: space-evenly;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
