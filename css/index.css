@@ -69,13 +69,33 @@ p {
 header {
     height: 8%;
     display: flex;
+    padding: 1% 0;
     flex-flow: row nowrap;
-    align-items: space-evenly;
+    align-items: space-between;
+    justify-content: center;
+}
+
+header nav {
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 header nav a {
+    padding-bottom: 1%;
     text-decoration: none;
     letter-spacing: 3px;
+    color: black;
+}
+
+.lambda {
+    width: 8%;
+}
+
+#headpic {
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 .container {
