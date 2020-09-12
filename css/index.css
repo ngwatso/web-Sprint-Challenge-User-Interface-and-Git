@@ -66,6 +66,18 @@ p {
     line-height: 1.4;
 }
 
+header {
+    height: 8%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: space-evenly;
+}
+
+header nav a {
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
