@@ -254,3 +254,12 @@ footer nav a {
 #box10 {
     background-color: dodgerblue;
 }
+
+.learn {
+    text-decoration: none;
+    width: 100px;
+    padding: 1% 5%;
+    border-radius: 10px;
+    border: solid black;
+    color: black;
+}
