@@ -99,6 +99,7 @@ header nav a {
 }
 
 .midpic {
+    
     margin: 3% 0;
 }
 
@@ -107,6 +108,7 @@ header nav a {
 }
 
 #top {
+    border-top: 2px dotted black;
     display: flex;
     flex-flow: row;
 }
@@ -116,9 +118,19 @@ header nav a {
     flex-flow: row;
 }
 
+.top {
+    padding: 0 2%;
+}
+
+.bottom {
+    padding: 4% 2%;
+}
+
 .info {
     width: 50%;
     margin:2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted black;
     display: flex;
     flex-flow: column nowrap;
     align-items: space-evenly;
